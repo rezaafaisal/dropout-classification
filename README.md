@@ -31,7 +31,9 @@ streamlit run app.py
 
 
 ## Business Dashboard
-![Dashboard Image](https://github.com/rezaafaisal/dropout-classification/raw/main/dashboard.png "Dashboard")
+![Dashboard Image](https://github.com/rezaafaisal/dropout-classification/raw/main/rezaafaisal-dashboard.png "Dashboard")
+
+[Link Dashboard](https://metabase.frealabs.web.id/public/dashboard/5b5f645f-ac99-40b4-bfc3-a4795420db69)
 
 Dashboard yang dibuat merupakan salah satu solusi untuk mengatasi tingginya jumlah dropout pada Jaya Jaya Institute, dengan menampilkan data yang memiliki korelasi terhadap dropout siswa seperti :
 - Rata-rata nilai siswa setiap semester
@@ -53,15 +55,34 @@ Grafik bar horizontal yang mnunjukakan daftar jurusan dan persentase dropout sis
 
 ## Menjalankan Sistem Machine Learning
 
+![Streamlit Image](https://github.com/rezaafaisal/dropout-classification/raw/main/rezaafaisal-stremlit.png "Streamlit")
 
 ```
-
+streamlit run app.py
 ```
+*jika ingin menjalankan secara lokal di komputer*
+
+1. Untuk menjalankan sistem, silahkan kunjungi : [Link Prototype Model](https://dropout-classification.streamlit.app/)
+2. maka akan tampil sperti gambar diatas, lalu silahkan sesuaikan inputan dengan siswa yang ingin diprediksi statusnya apakah termasuk dropout atau tidak
+3. selanjutnya tekan prediksi maka akan tampil hasil prediksi beserta probabilitasnya dalam bentuk tabel.
 
 ## Conclusion
-Jelaskan konklusi dari proyek yang dikerjakan.
+Berdasarkan hasil analisis, terdapat beberapa faktor yang paling mempengaruhi tingkat dropout siswa diantaranya adalah nilai akhir semester siswa, dimana siswa yang memiliki nilai yang rendah cenderung di-dropout
+
+Selanjutnya yang mempengaruhi dropout adalah biaya pendidikan sesuai dengan yang terbaru, ini cukup mempngaruhi karena jika tidak sesuai maka potensi dropout lebih tinggi jika biaya sesuai dengan biaya terbaru.
+
+Penerima beasiswa sangat mempengaruhi motivasi pelajar untuk menyelesaikan pendidikannya, tidak heran jika orang yang mendapatkan beasiswa akan berusaha sedini mungkin untuk terhindar dari dropout.
 
 ### Rekomendasi Action Items
-Berikan beberapa rekomendasi action items yang harus dilakukan perusahaan guna menyelesaikan permasalahan atau mencapai target mereka.
-- action item 1
-- action item 2
+
+1. Optimalisasi Dukungan Akademik
+- **Pendampingan Belajar**: Menyediakan program bimbingan belajar tambahan untuk siswa yang memiliki nilai rendah.yang berisiko mengalami kesulitan akademik dan memberikan perhatian khusus.
+- **Pemberian Feedback yang Cepat**: Memberikan umpan balik langsung kepada siswa terkait kinerja mereka agar dapat memperbaiki performa sebelum terlambat.
+
+2. Peningkatan Akses Beasiswa
+- **Program Beasiswa Baru**: Menyediakan lebih banyak peluang beasiswa, terutama untuk siswa dari latar belakang ekonomi rendah.
+
+3. Penyesuaian Biaya Pendidikan
+- **Skema Pembayaran Fleksibel**: Memberikan opsi pembayaran cicilan atau pengurangan biaya bagi siswa yang menghadapi kesulitan ekonomi.
+- **Subsidi Pendidikan**: Berkolaborasi dengan pihak ketiga untuk memberikan subsidi biaya pendidikan bagi siswa kurang mampu.
+

@@ -19,7 +19,7 @@ displaced = df["Displaced"].unique()
 
 # preparing model
 model = joblib.load(
-    "/home/razhura/Projects/else/dicoding/data-science-final/model/student_dropout_model.joblib")
+    "model/student_dropout_model.joblib")
 
 st.title("Klasifikasi Deteksi Potensi Dropout Siswa")
 st.write("Sistem ini bertujuan untuk mendeteksi secepat mungkin siswa yang mungkin akan melakukan dropout sehingga dapat diberi bimbingan khusus pada Jaya Jaya Institut")
